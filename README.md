@@ -1,4 +1,4 @@
-# env for links
+# env example
 VITE_GRAFANA_LINK=example.com
 VITE_PORTAINER_LINK=example.com
 VITE_PGADMIN_LINK=example.com
