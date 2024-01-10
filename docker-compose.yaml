@@ -7,4 +7,4 @@ services:
     env_file:
       - .env
     volumes:
-      - ./example:/app/dist
+      - /var/www/dummy-link-page:/app/dist
