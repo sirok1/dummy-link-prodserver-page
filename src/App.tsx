@@ -1,6 +1,7 @@
 import './App.css'
 import timewebIcon from "./assets/timeweb_icon.png"
 import kumaIcon from "./assets/uptime-kuma_icon.svg"
+import wakapiIcon from "./assets/wakapi.svg"
 
 function App() {
 
@@ -58,7 +59,8 @@ function App() {
                     <button type="submit" onClick={() => location.href = `https://${import.meta.env.VITE_PGADMIN_LINK}`}
                             className="relative w-full px-7 py-4 bg-black rounded-lg leading-none flex items-center divide-x divide-gray-600">
                        <span className="flex items-center space-x-5">
-                           <svg className="h-6 w-6" viewBox="-4 0 264 264" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                           <svg className="h-6 w-6" viewBox="-4 0 264 264" version="1.1"
+                                xmlns="http://www.w3.org/2000/svg"
                                 preserveAspectRatio="xMidYMid">
                                 <g>
                                     <path
@@ -114,6 +116,21 @@ function App() {
                        <span className="flex items-center space-x-5">
                            <img src={kumaIcon} className="h-6 w-6" alt="host icon"/>
                             <span className="pr-6 text-gray-100">Uptime-kuma</span>
+                       </span>
+                        <span
+                            className="pl-6 text-indigo-400 group-hover:text-gray-100 transition duration-200">Перейти &rarr;
+                        </span>
+                    </button>
+                </div>
+                <div className="relative group">
+                    <div
+                        className="absolute w-full -inset-0.5 bg-gradient-to-r from-emerald-400 to-teal-500 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
+                    <button type="submit"
+                            onClick={() => location.href = `https://${import.meta.env.VITE_WAKAPI_LINK}`}
+                            className="relative px-7 py-4 bg-black rounded-lg leading-none flex items-center divide-x divide-gray-600">
+                       <span className="flex items-center space-x-5">
+                           <img src={wakapiIcon} className="h-6 w-6" alt="host icon"/>
+                            <span className="pr-6 text-gray-100">Wakapi</span>
                        </span>
                         <span
                             className="pl-6 text-indigo-400 group-hover:text-gray-100 transition duration-200">Перейти &rarr;
