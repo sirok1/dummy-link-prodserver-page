@@ -1,7 +1,7 @@
 import './App.css'
 import timewebIcon from "./assets/timeweb_icon.png"
 import kumaIcon from "./assets/uptime-kuma_icon.svg"
-import wakapiIcon from "./assets/wakapi.svg"
+import wakatimeIcon from "./assets/wakatime-white.svg"
 
 function App() {
 
@@ -127,9 +127,9 @@ function App() {
                         className="absolute w-full -inset-0.5 bg-gradient-to-r from-emerald-400 to-teal-500 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
                     <button type="submit"
                             onClick={() => location.href = `https://${import.meta.env.VITE_WAKAPI_LINK}`}
-                            className="relative px-7 py-4 bg-black rounded-lg leading-none flex items-center divide-x divide-gray-600">
+                            className="relative px-7 w-full py-4 bg-black rounded-lg leading-none flex items-center justify-between divide-x divide-gray-600">
                        <span className="flex items-center space-x-5">
-                           <img src={wakapiIcon} className="h-6 w-6" alt="host icon"/>
+                           <img src={wakatimeIcon} className="h-6 w-6" alt="host icon"/>
                             <span className="pr-6 text-gray-100">Wakapi</span>
                        </span>
                         <span
