@@ -1,0 +1,60 @@
+{
+  "services": [
+    {
+      "name": "Portainer",
+      "link": "https://portainer.sirok.space",
+      "icon-src": "/src/assets/portainer.svg",
+      "color-start": "sky-600",
+      "color-end": "cyan-400"
+    },
+    {
+      "name": "Grafana",
+      "link": "https://grafana.sirok.space",
+      "icon-src": "/src/assets/grafana.svg",
+      "color-start": "amber-600",
+      "color-end": "orange-600"
+    },
+    {
+      "name": "PG admin",
+      "link": "https://pgadmin.sirok.space",
+      "icon-src": "/src/assets/pg-admin.svg",
+      "color-start": "cyan-600",
+      "color-end": "indigo-600"
+    },
+    {
+      "name": "Timeweb",
+      "link": "https://timeweb.cloud/my/servers/2377023",
+      "icon-src": "/src/assets/timeweb_icon.png",
+      "color-start": "indigo-600",
+      "color-end": "cyan-500"
+    },
+    {
+      "name": "Uptime-kuma",
+      "link": "https://kuma.sirok.space",
+      "icon-src": "/src/assets/uptime-kuma_icon.svg",
+      "color-start": "emerald-400",
+      "color-end": "teal-500"
+    },
+    {
+      "name": "Wakapi",
+      "link": "https://wakatime.sirok.space",
+      "icon-src": "/src/assets/wakatime-white.svg",
+      "color-start": "emerald-400",
+      "color-end": "teal-500"
+    },
+    {
+      "name": "Cronicle",
+      "link": "https://cronicle.sirok.space",
+      "icon-src": "/src/assets/cronicle-logo.png",
+      "color-start": "cyan-400",
+      "color-end": "indigo-600"
+    },
+    {
+      "name": "Proxy manager",
+      "link": "https://proxy.uicode.pro/nginx/",
+      "icon-src": "/src/assets/nginx-proxy-manager.svg",
+      "color-start": "amber-600",
+      "color-end": "indigo-600"
+    }
+  ]
+}
