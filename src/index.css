@@ -30,6 +30,50 @@ h1 {
   line-height: 1.1;
 }
 
+.gradient-start-cyan-400 {
+  @apply bg-gradient-to-r from-cyan-400
+}
+
+.gradient-start-sky-600 {
+  @apply bg-gradient-to-r from-sky-600
+}
+
+.gradient-to-cyan-400 {
+  @apply to-cyan-400
+}
+
+.gradient-start-amber-600 {
+  @apply bg-gradient-to-r from-amber-600
+}
+
+.gradient-to-orange-600 {
+  @apply to-orange-600
+}
+
+.gradient-start-cyan-600 {
+  @apply bg-gradient-to-r from-cyan-600
+}
+
+.gradient-to-indigo-600 {
+  @apply to-indigo-600
+}
+
+.gradient-start-indigo-600 {
+  @apply bg-gradient-to-r from-indigo-600
+}
+
+.gradient-to-cyan-500 {
+  @apply to-cyan-500
+}
+
+.gradient-start-emerald-400 {
+  @apply bg-gradient-to-r from-emerald-400
+}
+
+.gradient-to-teal-500 {
+  @apply to-teal-500
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
